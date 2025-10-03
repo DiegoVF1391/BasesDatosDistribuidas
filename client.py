@@ -10,7 +10,7 @@ host = 'localhost'
 
 # Connect socket to the host and port
 sock.connect((host, port))
-print('Conección Establecida.')
+print('Conexión Establecida.')
 # Send a greeting to the server
 sock.send('Recibió un mensaje por parte del cliente'.encode())
 
